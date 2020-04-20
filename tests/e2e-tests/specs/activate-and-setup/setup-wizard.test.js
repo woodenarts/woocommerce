@@ -5,15 +5,16 @@
 /**
  * Internal dependencies
  */
-import { StoreOwnerFlow } from '../../utils/flows';
-import { completeOldSetupWizard, completeOnboardingWizard } from '../../utils/components';
 import {
+	StoreOwnerFlow,
+	completeOldSetupWizard,
+	completeOnboardingWizard,
 	permalinkSettingsPageSaveChanges,
 	setCheckbox,
 	settingsPageSaveChanges,
 	verifyCheckboxIsSet,
-	verifyCheckboxIsUnset, verifyValueOfInputField
-} from '../../utils';
+	verifyValueOfInputField
+} from '@woocommerce/e2e-utils';
 
 const config = require( 'config' );
 
