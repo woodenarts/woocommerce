@@ -31,7 +31,7 @@
     "@jest/test-sequencer": "^25.0.0",
     "@woocommerce/e2e-environment": "file:tests/e2e/env",
     "@wordpress/e2e-test-utils": "4.3.1",
-    "autoprefixer": "9.7.5",
+    "autoprefixer": "9.8.0",
     "babel-eslint": "10.1.0",
     "chai": "4.2.0",
     "chai-as-promised": "7.1.1",
